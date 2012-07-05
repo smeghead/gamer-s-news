@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MudanewsActivity!</string>
+    <string name="app_name">Gamer\'s News</string>
+    <string name="shareDescription">ロック関係の最新ニュースなら ロックニュース\n http://goo.gl/dOMPj</string>
+    <string name="initial_message">インストールありがとうございます。\n記事取得中です。\n少々お待ちください。\n(初回の記事取得は時間がかかります)</string>
+    <string name="no_favorites_message">お気に入りにした記事を纏めて見ることができます。\n記事の☆ボタンをタップするか、メニューからお気に入りに追加することができます。</string>
+</resources>

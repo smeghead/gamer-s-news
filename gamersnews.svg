@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="gamersnews.svg"
-   inkscape:export-filename="/home/smeghead/eclipse/gamersnews/gamersnews512.png"
-   inkscape:export-xdpi="411.42999"
-   inkscape:export-ydpi="411.42999">
+   inkscape:export-filename="/home/smeghead/eclipse/gamersnews/res/drawable-hdpi/icon.png"
+   inkscape:export-xdpi="48.209999"
+   inkscape:export-ydpi="48.209999">
   <defs
      id="defs4">
     <linearGradient
@@ -115,7 +115,7 @@
      inkscape:window-width="1241"
      inkscape:window-height="706"
      inkscape:window-x="81"
-     inkscape:window-y="999"
+     inkscape:window-y="138"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -145,7 +145,7 @@
      id="layer1"
      transform="translate(0,-924.36218)">
     <rect
-       style="fill:#cccc00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#002900;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect2987"
        width="112"
        height="112"
@@ -162,74 +162,18 @@
        width="112"
        id="rect3838"
        style="opacity:0.22758622;fill:url(#radialGradient3854);fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <g
-       id="g3798"
-       transform="translate(0,4.0000178)">
-      <g
-         transform="matrix(0.58560501,0,0,1.7636684,8.7221811,-720.45295)"
-         id="text3757-0-9"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold">
-        <path
-           inkscape:connector-curvature="0"
-           id="path3775"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 14.4,950.40218 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -8.72,0 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -9.32,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m -4.68,0 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.64,-0.56 0,-4.08 -4.08,0 0,4.08 4.08,0 m 13.96,-18.04 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-18.6 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,13.36 0,-4.08 -4.04,0 0,4.08 4.04,0 m 0,5.24 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.04,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3777"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 41.74375,950.40218 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -8.72,0 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.68,0 0,-4.08 -4.04,0 0,4.08 4.04,0 m -4.64,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,4.68 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.08,4.64 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-22.68 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-8.72 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,8.72 0,-4.08 -4.04,0 0,4.08 4.04,0 m 0,5.24 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.04,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3779"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 69.6875,946.32218 0,4.08 4.04,0 0,-4.08 -4.04,0 m -0.6,4.08 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,-4.64 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,9.28 0,-4.08 -4.08,0 0,4.08 4.08,0 m -9.32,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,4.68 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.08,4.64 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-13.96 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-4.08 0,4.08 4.04,0 0,-4.08 -4.04,0 m 0,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,13.36 0,-4.08 -4.04,0 0,4.08 4.04,0 m 0,5.24 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.04,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3781"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 96.43125,950.40218 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -9.32,4.08 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-4.08 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.68,0 0,-4.08 -4.04,0 0,4.08 4.04,0 m -4.64,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m -4.68,0 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.64,-0.56 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.08,4.64 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-22.68 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,18.6 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-18.6 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,18.6 -4.04,0 0,4.08 4.04,0 0,-4.08" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3783"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 123.775,950.40218 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -9.32,4.08 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-4.08 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.68,0 0,-4.08 -4.04,0 0,4.08 4.04,0 m -4.64,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m -4.68,0 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.64,-0.56 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.08,4.64 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-22.68 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,18.6 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-18.6 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,18.6 -4.04,0 0,4.08 4.04,0 0,-4.08" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3785"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 151.11875,950.40218 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,-4.64 0,-4.08 -4.08,0 0,4.08 4.08,0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3787"
-           style="font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 159.86875,950.40218 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -8.72,0 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.68,0 0,-4.08 -4.04,0 0,4.08 4.04,0 m 4.68,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m -4.68,0 -4.04,0 0,4.08 4.04,0 0,-4.08 m -8.72,4.08 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-22.68 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-18.6 0,4.08 4.04,0 0,-4.08 -4.04,0 m 0,13.96 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-      </g>
-      <g
-         transform="matrix(0.5637527,0,0,1.7636684,28.666447,-785.32774)"
-         id="text3757-0-9-6"
-         style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:justify;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold">
-        <path
-           inkscape:connector-curvature="0"
-           id="path3790"
-           style="font-size:40px;font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 23.72,1014.4022 0,-4.08 -4.08,0 0,4.08 4.08,0 m -9.32,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,-4.64 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-4.08 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -9.32,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,0.6 -4.08,0 0,4.08 4.08,0 0,-4.08 m -9.32,4.08 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.08,4.64 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-4.08 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-13.96 0,4.08 4.04,0 0,-4.08 -4.04,0 m 0,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,13.36 0,-4.08 -4.04,0 0,4.08 4.04,0 m 0,5.24 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.04,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3792"
-           style="font-size:40px;font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 41.74375,1014.4022 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -9.32,4.08 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-4.08 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.68,0 0,-4.08 -4.04,0 0,4.08 4.04,0 m -4.64,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m -4.68,0 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.64,-0.56 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.08,4.64 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-22.68 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,18.6 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-18.6 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,18.6 -4.04,0 0,4.08 4.04,0 0,-4.08" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3794"
-           style="font-size:40px;font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 69.0875,1014.4022 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,-4.64 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,9.28 0,-4.08 -4.08,0 0,4.08 4.08,0 m -9.32,0 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,4.68 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0.6,-4.08 0,4.08 4.04,0 0,-4.08 -4.04,0 m -4.68,8.72 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-9.32 0,4.08 4.04,0 0,-4.08 -4.04,0 m 0,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0 m 4.04,13.36 0,-4.08 -4.04,0 0,4.08 4.04,0 m 0,5.24 -4.04,0 0,4.08 4.04,0 0,-4.08 m -4.04,-4.64 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path3796"
-           style="font-size:40px;font-family:Mobile Man;-inkscape-font-specification:Mobile Man Bold"
-           d="m 96.43125,1014.4022 0,-4.08 -4.08,0 0,4.08 4.08,0 m 9.32,-8.72 -4.08,0 0,4.08 4.08,0 0,-4.08 m -8.72,0 0,4.08 4.04,0 0,-4.08 -4.04,0 m 8.72,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m -4.68,0 0,-4.08 -4.04,0 0,4.08 4.04,0 m 4.68,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m -4.68,0 -4.04,0 0,4.08 4.04,0 0,-4.08 m -8.72,4.08 4.08,0 0,-4.08 -4.08,0 0,4.08 m 18.04,-22.68 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0,13.36 0,-4.08 -4.08,0 0,4.08 4.08,0 m 0,5.24 -4.08,0 0,4.08 4.08,0 0,-4.08 m 0.6,-18.6 0,4.08 4.04,0 0,-4.08 -4.04,0 m 0,13.96 0,4.08 4.04,0 0,-4.08 -4.04,0" />
-      </g>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:160.93786621px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:justify;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:'さざなみ明朝';-inkscape-font-specification:'さざなみ明朝 Medium'"
+       x="10.97397"
+       y="1004.9934"
+       id="text3013"
+       sodipodi:linespacing="125%"
+       transform="scale(0.97066392,1.0302227)"><tspan
+         sodipodi:role="line"
+         id="tspan3015"
+         x="10.97397"
+         y="1004.9934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffff00;fill-opacity:1;font-family:Mobile Man;-inkscape-font-specification:Mobile Man">G</tspan></text>
   </g>
 </svg>

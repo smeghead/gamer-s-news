@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 
 import android.util.Log;
 
-import com.starbug1.android.gamersnews.R;
 import com.starbug1.android.newsapp.FetchFeedService;
 import com.starbug1.android.newsapp.data.NewsListItem;
 import com.starbug1.android.newsapp.utils.UrlUtils;
@@ -15,14 +14,19 @@ import com.starbug1.android.newsapp.utils.UrlUtils;
 public class AppFetchFeedService extends FetchFeedService {
 	private static final String TAG = "AppFetchFeedService";
 
-	private final Pattern imageUrl_ = Pattern.compile("<img.*?src=\"([^\"]*)\"", Pattern.MULTILINE);
-	private Pattern fourgamerContent_ = Pattern.compile("table class=\"img_right_top\"(.*)SOCIALBOOKMARK_BOTTOM_BAR", Pattern.DOTALL);
-	private Pattern famitsuContent_ = Pattern.compile("div id=\"textArea\"(.*)/table", Pattern.DOTALL);
+	private final Pattern imageUrl_ = Pattern.compile(
+			"<img.*?src=\"([^\"]*)\"", Pattern.MULTILINE);
+	private final Pattern fourgamerContent_ = Pattern.compile(
+			"div  class=\"maintxt\"(.*)SOCIALBOOKMARK_BOTTOM_BAR",
+			Pattern.DOTALL);
+	private final Pattern famitsuContent_ = Pattern.compile(
+			"div id=\"textArea\"(.*)Bookmark_START", Pattern.DOTALL);
 
 	@Override
 	protected List<Feed> getFeeds() {
+		Log.d(TAG, "getFeeds");
 		List<Feed> feeds = new ArrayList<Feed>();
-		
+
 		feeds.add(new Feed("4gamer", "http://www.4gamer.net/rss/index.xml") {
 
 			@Override
@@ -32,17 +36,27 @@ public class AppFetchFeedService extends FetchFeedService {
 					return null;
 				}
 				String mainPart = m.group(1);
-				m = imageUrl_.matcher(mainPart);
-				if (!m.find()) {
-					return null;
+
+				String imageUrl = null;
+				while (true) {
+					m = imageUrl_.matcher(mainPart);
+					if (!m.find()) {
+						return null;
+					}
+					imageUrl = m.group(1);
+					if (!imageUrl.startsWith("/tags/")) {
+						break;
+					}
+					// ただのアイコンだった場合は、次を検索する。
+					mainPart = mainPart.substring(m.end());
 				}
-				String imageUrl = m.group(1);
 				if (imageUrl.startsWith("/")) {
-					imageUrl = UrlUtils.findSchemaDomain(item.getLink()) + imageUrl;
+					imageUrl = UrlUtils.findSchemaDomain(item.getLink())
+							+ imageUrl;
 				}
 				return imageUrl;
 			}
-			
+
 		});
 		feeds.add(new Feed("famitsu", "http://www.famitsu.com/rss/fcom_all.rdf") {
 
@@ -59,19 +73,19 @@ public class AppFetchFeedService extends FetchFeedService {
 				}
 				String imageUrl = m.group(1);
 				if (imageUrl.startsWith("/")) {
-					imageUrl = UrlUtils.findSchemaDomain(item.getLink()) + imageUrl;
+					imageUrl = UrlUtils.findSchemaDomain(item.getLink())
+							+ imageUrl;
 				}
 				return imageUrl;
 			}
-			
+
 		});
-		
+
 		return feeds;
 	}
-	
+
 	@Override
 	public void onCreate() {
-		com.starbug1.android.newsapp.utils.ResourceProxy.R.init(R.class);
 
 		super.onCreate();
 	}
@@ -86,6 +100,5 @@ public class AppFetchFeedService extends FetchFeedService {
 		}
 		return super.isValidItem(item);
 	}
-	
-	
+
 }
